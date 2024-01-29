@@ -15,7 +15,7 @@ body {
 }
 
 .presentation {
-  margin: 10%;
+  margin: 10% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +23,9 @@ body {
 
 .presentation__content {
   width: 615px;
-  height: 482px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .presentation__content__head1 {
