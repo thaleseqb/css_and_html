@@ -11,9 +11,23 @@ body {
 }
 
 .presentation {
+  margin: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.presentation__content {
+  width: 615px;
+  height: 482px;
+}
+
+.presentation__content__head1 {
+  font-size: 36px;
+}
+
+.presentation__content__p {
+  font-size: 24px;
 }
 
 .featured-title {
