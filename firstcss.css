@@ -15,7 +15,7 @@ body {
 }
 
 .presentation {
-  margin: 10% 15%;
+  margin: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,20 +44,36 @@ body {
 
 .presentation__links {
   display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
   justify-content: space-between;
 }
 
+.contact__info {
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 .presentation__links__anchor {
-  width: 280px;
+  width: 378px;
   text-align: center;
-  border-radius: 16px;
-  background-color: #22d4fd;
+  border-radius: 8px;
+  background-color: black;
   font-size: 24px;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
   padding: 21.5px 0px;
   text-decoration: none;
-  color: black;
+  color: #f6f6f6;
+  border: solid 2px #22d4fd;
+}
+
+.presentation__image {
+  display: flex;
+  border-radius: 16px;
+  width: 900px;
 }
 
 h1 {
