@@ -8,14 +8,14 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   box-sizing: border-box;
   background-color: black;
   color: #f6f6f6;
 }
 
 .presentation {
-  margin: 10% 15%;
+  padding: 8% 15%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,10 +73,24 @@ body {
   gap: 16px;
 }
 
+.presentation__links__anchor:hover {
+  background-color: #272727;
+}
+
 .presentation__image {
   display: flex;
   border-radius: 16px;
   width: 700px;
+}
+
+.footer {
+  text-align: center;
+  color: black;
+  background-color: #22d4fd;
+  padding: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 h1 {
