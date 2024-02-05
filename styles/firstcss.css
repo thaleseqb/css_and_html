@@ -19,6 +19,7 @@
 }
 
 body {
+  /* height: 100vh; */
   box-sizing: border-box;
   background-color: var(--cor-principal);
   color: var(--cor-secundaria);
@@ -26,6 +27,7 @@ body {
 
 .header {
   padding: 2% 0% 0% 15%;
+
 }
 
 .header__menu {
@@ -132,8 +134,12 @@ body {
   }
 
   .presentation {
-    display: flex;
     flex-direction: column-reverse;
-    ;
+    padding: 5% 5%;
   }
+
+  .presentation__content {
+    width: auto;
+  }
+
 } 
